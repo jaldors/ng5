@@ -12,3 +12,15 @@ ng build --prod --base-href="myURL here"
 
     This command will generate small files and designate your application to the correct url routers.
     Note: --base-href is only necessary whether the application is published in a sub folder on server
+
+
+PUBLISHING ON GITHUB
+
+    npm i -g angular-cli-ghpages   ( If not installed yet!!!)
+
+    ng build --prod --base-href="https://jaldors.github.io/ng5/"
+
+    After that... to publish on github
+
+    angular-cli-ghpages
+
