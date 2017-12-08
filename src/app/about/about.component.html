@@ -1,3 +1,14 @@
-<p>
-  about works!
-</p>
+<style>
+  ul li {
+    display: flex;
+    margin-right: 20px;
+  }
+</style>
+
+<p>This is what I'm all about. <a (click)="sendMeHome()"><strong>Take me back!</strong></a></p>
+
+<ul>
+  <li><a (click)="sendMeHome()"><strong>Take me back with event binding and no href definition!</strong></a></li>
+  <li><a href="" (click)="sendMeHome()"><strong>Take me back with empty href="" and event binding!</strong></a></li>
+  <li><a href="#" (click)="sendMeHome()"><strong>Take me back with href="#" and event binding!</strong></a></li>
+</ul>
