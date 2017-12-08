@@ -12,3 +12,11 @@
   <li><a href="" (click)="sendMeHome()"><strong>Take me back with empty href="" and event binding!</strong></a></li>
   <li><a href="#" (click)="sendMeHome()"><strong>Take me back with href="#" and event binding!</strong></a></li>
 </ul>
+
+<hr>
+
+<ul>
+  <li *ngFor="let goal of goals">
+    {{ goal }}
+  </li>
+</ul>
