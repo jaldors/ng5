@@ -1,0 +1,14 @@
+DEPLOYMENT ON PRODUCTION
+
+ng build    
+
+    This command will generate large files (Don't use it)
+
+ng build --prod
+
+    This command will generate small files to be published on production  
+
+ng build --prod --base-href="myURL here"
+
+    This command will generate small files and designate your application to the correct url routers.
+    Note: --base-href is only necessary whether the application is published in a sub folder on server
